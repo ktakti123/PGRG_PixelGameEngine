@@ -19,6 +19,8 @@ int main()
     set_point(10,20,color_blue);
     set_point(10,20,color_green);
     set_point(10,20,color_white);
+    draw_line(10 , 30, 50, 100 ,255,255, 255); // Draw line(x1,y1,x2,y2,r,g,b)
+    draw_line(20 , 200, 10, 10 ,color_black); 
     Render(); // Render everything on screen
   }
   
